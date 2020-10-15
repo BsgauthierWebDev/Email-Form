@@ -1,0 +1,72 @@
+/*Editing the page layout*/
+
+main {
+  padding: 25px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+main h1 {
+  margin: 0 10px;
+  border-bottom: 3px solid grey;
+}
+
+main h2 {
+  margin: 15px 20px;
+  border-bottom: 5 px solid darkgrey;
+}
+
+main img {
+  width: 100%;
+}
+
+/*Editing the format for the groups and items*/
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+main img {
+  width: 100%;
+}
+
+/*Desktop access groups and items*/
+
+@media all and (min-width: 600px) {
+  section {
+    padding: 0 10px;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+/*Form Design*/
+
+form {
+  padding-right: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form textarea {
+  height: 150px;
+}
